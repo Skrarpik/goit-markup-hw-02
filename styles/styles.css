@@ -21,6 +21,9 @@ body {
   letter-spacing: 0.03em;
   color: #000000;
 }
+.name-page-bottom {
+  color: var(--text-color3);
+}
 
 .brandcolor {
   color: var(--brand-color);
