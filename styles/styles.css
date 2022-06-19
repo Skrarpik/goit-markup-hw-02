@@ -1,3 +1,159 @@
 body {
   font-family: 'Roboto', sans-serif;
+  color: var(--text-color)
+}
+
+:root {
+  --brand-color: #2196F3;
+  --text-color: #212121;
+  --text-color2: #757575;
+  --text-color3: #fff;
+  --background-color1: #fff;
+  --background-color2: #F5F4FA;
+  --background-color3: #2F303A;
+  --background-color4: #E5E5E5;
+}
+.name-page, .name-page-bottom {
+  font-family: 'Raleway';
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.2;
+  letter-spacing: 0.03em;
+  
+  color: #000000;
+}
+
+.brandcolor {
+  color: var(--brand-color);
+}
+
+.nav-list {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.1;
+  letter-spacing: 0.02em;
+}
+.navigation-studio, .navigation-portfolio, .navigation-contacts {
+  color: var(--text-color);
+}
+
+.navigation-studio:hover, .navigation-studio:focus, .navigation-portfolio:hover, .navigation-portfolio:focus, .navigation-contacts:hover, .navigation-contacts:focus {
+  color: var(--brand-color);
+}
+
+.contacts-list {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.1;
+  letter-spacing: 0.02em;
+}
+
+.tel-top, .mail-top{
+  color: var(--text-color2);
+}
+.tel-top:hover, tel-top:focus, .mail-top:hover, .mail-top:focus {
+  color: var(--brand-color);
+}
+
+.hero {
+  color: #FFFFFF;
+  background-color: var(--background-color3);
+}
+
+.hero-title {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.4;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+.btn {
+  background-color: var(--text-color3);
+  color: var(--text-color);
+  cursor: pointer;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.9;
+  text-align: center;
+  letter-spacing: 0.06em;
+}
+.btn:hover, .btn:focus {
+  background-color: var(--brand-color);
+  color: var(--text-color3);
+}
+
+.skills-title {
+  color: var(--text-color);
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.1;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+
+.skills-text {
+  color: var(--text-color2);
+  font-size: 14px;
+  line-height: 1.7;
+  letter-spacing: 0.03em;
+}
+.work {
+  background-color: var(--background-color4);
+}
+.work-title, .team-title {
+  color:var(--text-color);
+  font-size: 36px;
+  line-height: 1.2;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+.team {
+  background-color: var(--background-color2);
+}
+
+.person-name {
+  color: var(--text-color);
+  font-weight: 500;
+  font-size: 16px;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+
+.person-work {
+  color: var(--text-color2);
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+footer {
+  background-color: var(--background-color3);
+}
+
+.address-list {
+  font-size: 14px;
+  line-height: 1.7;
+  letter-spacing: 0.03em;
+}
+.address-google {
+  color: var(--text-color3);
+}
+
+.mail-bottom, .tel-bottom {
+  color: rgba(255, 255, 255, 0.6);
+}
+
+/* projects */
+
+.projects h3 {
+  color: var(--text-color);
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+}
+.projects p {
+  color: var(--text-color2);
+  font-size: 16px;
+  line-height: 1.9;
+  letter-spacing: 0.03em;
 }
