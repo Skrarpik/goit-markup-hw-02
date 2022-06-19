@@ -36,7 +36,9 @@ body {
   letter-spacing: 0.02em;
 }
 
-.navigation-studio, .navigation-portfolio, .navigation-contacts {
+.navigation-studio,
+.navigation-portfolio,
+.navigation-contacts {
   color: var(--text-color);
 }
 
@@ -78,7 +80,6 @@ body {
   text-align: center;
   letter-spacing: 0.06em;
   background-color: var(--text-color3);
-  color: var(--text-color);
   cursor: pointer;
 }
 .btn:hover, .btn:focus {
@@ -92,7 +93,6 @@ body {
   line-height: 1.1;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: var(--text-color);
 }
 
 .skills-text {
@@ -109,7 +109,6 @@ body {
   line-height: 1.2;
   text-align: center;
   letter-spacing: 0.03em;
-  color:var(--text-color);
 }
 .team {
   background-color: var(--background-color2);
@@ -121,7 +120,6 @@ body {
   font-size: 16px;
   text-align: center;
   letter-spacing: 0.03em;
-  color: var(--text-color);
 }
 
 .person-work {
@@ -153,7 +151,6 @@ footer {
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
-  color: var(--text-color);
 }
 .projects p {
   font-size: 16px;
