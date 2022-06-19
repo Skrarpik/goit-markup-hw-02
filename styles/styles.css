@@ -19,7 +19,6 @@ body {
   font-size: 26px;
   line-height: 1.2;
   letter-spacing: 0.03em;
-  
   color: #000000;
 }
 
@@ -33,6 +32,7 @@ body {
   line-height: 1.1;
   letter-spacing: 0.02em;
 }
+
 .navigation-studio, .navigation-portfolio, .navigation-contacts {
   color: var(--text-color);
 }
@@ -69,14 +69,14 @@ body {
   text-transform: uppercase;
 }
 .btn {
-  background-color: var(--text-color3);
-  color: var(--text-color);
-  cursor: pointer;
   font-weight: 700;
   font-size: 16px;
   line-height: 1.9;
   text-align: center;
   letter-spacing: 0.06em;
+  background-color: var(--text-color3);
+  color: var(--text-color);
+  cursor: pointer;
 }
 .btn:hover, .btn:focus {
   background-color: var(--brand-color);
@@ -84,46 +84,47 @@ body {
 }
 
 .skills-title {
-  color: var(--text-color);
   font-weight: 700;
   font-size: 14px;
   line-height: 1.1;
   letter-spacing: 0.03em;
   text-transform: uppercase;
+  color: var(--text-color);
 }
 
 .skills-text {
-  color: var(--text-color2);
   font-size: 14px;
   line-height: 1.7;
   letter-spacing: 0.03em;
+  color: var(--text-color2);
 }
 .work {
   background-color: var(--background-color4);
 }
 .work-title, .team-title {
-  color:var(--text-color);
   font-size: 36px;
   line-height: 1.2;
   text-align: center;
   letter-spacing: 0.03em;
+  color:var(--text-color);
 }
 .team {
   background-color: var(--background-color2);
 }
 
 .person-name {
-  color: var(--text-color);
+  
   font-weight: 500;
   font-size: 16px;
   text-align: center;
   letter-spacing: 0.03em;
+  color: var(--text-color);
 }
 
 .person-work {
-  color: var(--text-color2);
   text-align: center;
   letter-spacing: 0.03em;
+  color: var(--text-color2);
 }
 footer {
   background-color: var(--background-color3);
@@ -145,15 +146,15 @@ footer {
 /* projects */
 
 .projects h3 {
-  color: var(--text-color);
   font-weight: 700;
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
+  color: var(--text-color);
 }
 .projects p {
-  color: var(--text-color2);
   font-size: 16px;
   line-height: 1.9;
   letter-spacing: 0.03em;
+  color: var(--text-color2);
 }
