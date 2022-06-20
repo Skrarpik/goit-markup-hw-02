@@ -164,3 +164,6 @@ footer {
 .projects a {
   text-decoration: none;
 }
+.list {
+  list-style: none;
+}
