@@ -1,6 +1,8 @@
 body {
   font-family: 'Roboto', sans-serif;
+  letter-spacing: 0.03em;
   color: var(--text-color)
+  
 }
 
 :root {
@@ -18,7 +20,6 @@ body {
   font-weight: 700;
   font-size: 26px;
   line-height: 1.2;
-  letter-spacing: 0.03em;
   color: #000000;
 }
 .name-page-bottom {
@@ -42,7 +43,12 @@ body {
   color: var(--text-color);
 }
 
-.navigation-studio:hover, .navigation-studio:focus, .navigation-portfolio:hover, .navigation-portfolio:focus, .navigation-contacts:hover, .navigation-contacts:focus {
+.navigation-studio:hover, 
+.navigation-studio:focus, 
+.navigation-portfolio:hover, 
+.navigation-portfolio:focus, 
+.navigation-contacts:hover, 
+.navigation-contacts:focus {
   color: var(--brand-color);
 }
 
@@ -61,7 +67,7 @@ body {
 }
 
 .hero {
-  color: #FFFFFF;
+  color: var(--text-color3);
   background-color: var(--background-color3);
 }
 
@@ -74,10 +80,10 @@ body {
   text-transform: uppercase;
 }
 .btn {
+  font-family: inherit;
   font-weight: 700;
   font-size: 16px;
   line-height: 1.9;
-  text-align: center;
   letter-spacing: 0.06em;
   background-color: var(--text-color3);
   cursor: pointer;
@@ -91,14 +97,12 @@ body {
   font-weight: 700;
   font-size: 14px;
   line-height: 1.1;
-  letter-spacing: 0.03em;
   text-transform: uppercase;
 }
 
 .skills-text {
   font-size: 14px;
   line-height: 1.7;
-  letter-spacing: 0.03em;
   color: var(--text-color2);
 }
 .work {
@@ -108,23 +112,19 @@ body {
   font-size: 36px;
   line-height: 1.2;
   text-align: center;
-  letter-spacing: 0.03em;
 }
 .team {
   background-color: var(--background-color2);
 }
 
 .person-name {
-  
   font-weight: 500;
   font-size: 16px;
-  text-align: center;
-  letter-spacing: 0.03em;
 }
 
 .person-work {
-  text-align: center;
-  letter-spacing: 0.03em;
+  font-size: 16px;
+  line-height: 1.2;
   color: var(--text-color2);
 }
 footer {
@@ -134,7 +134,6 @@ footer {
 .address-list {
   font-size: 14px;
   line-height: 1.7;
-  letter-spacing: 0.03em;
 }
 .address-google {
   color: var(--text-color3);
@@ -155,6 +154,5 @@ footer {
 .projects p {
   font-size: 16px;
   line-height: 1.9;
-  letter-spacing: 0.03em;
   color: var(--text-color2);
 }
